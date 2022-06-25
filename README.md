@@ -11,3 +11,7 @@ the course is located here
 
 This is the first thing that is different and should be noted is how this guy
 sets up his file structure
+
+## Progress
+
+I stopped at 33:05 So I could go to sleep.
