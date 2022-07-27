@@ -17,7 +17,7 @@ sets up his file structure
 
 ## Progress
 
-I stopped at 33:05 So I could go to sleep.
+I stopped at 49:19. We are just ready to style the button.
 
 ## How to setup react
 
@@ -263,3 +263,37 @@ There is also an online tool for generating css animations in your app.
 The link to this is here [CSS Animations](https://animista.net)
 
 After the code is generated you will need to copy both the class and the keyframes and paste them into your css file.
+
+#### Media Queries
+
+Set margins and paddings to display differently on different devices.
+
+Here is an example of a media query for mobile devices:
+
+        @media screen and (max-width: 550px) {
+        .section__padding {
+            padding: 4rem 2rem;
+        }
+
+        .section__margin {
+            margin: 4rem 2rem;
+        }
+        }
+
+## Begin Building the App
+
+Most of the assets for this app are provided by a website called **figma.com**.
+
+The link to that website is here [Figma](https://figma.com)
+
+The actual design is right here [Design Layout](https://www.figma.com/file/lz9lLpFHMxHm2odnwM3R0z/gpt3?node-id=0%3A1)
+
+While in the App.js file in VS Code you can use the **Ctrl-Click** to quickly open any one of the Components.
+
+### Navbar
+
+The first component we will create is the Navbar Component.
+
+All the class names that we create follow a certain specification called **BEM** which stands for **Block Element Modifier**.
+
+more information on this can be found here [BEM by Example](https://sparkbox.com/foundry/bem_by_example)
