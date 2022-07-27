@@ -297,3 +297,9 @@ The first component we will create is the Navbar Component.
 All the class names that we create follow a certain specification called **BEM** which stands for **Block Element Modifier**.
 
 more information on this can be found here [BEM by Example](https://sparkbox.com/foundry/bem_by_example)
+
+So in this course we setup the navbar to work on various devices using media queries.
+
+### Header
+
+The next component we will work on is the Header.
