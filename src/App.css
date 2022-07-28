@@ -15,11 +15,7 @@ a {
 }
 
 .gradient__bg {
-  background: -moz-radial-gradient(
-    circle at 3% 25%,
-    rgba(0, 40, 83, 1) 0%,
-    rgba(4, 12, 24, 1) 25%
-  );
+  background: -moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
 
   /* safari 5.1+,chrome 10+ */
   background: -webkit-radial-gradient(
@@ -29,25 +25,13 @@ a {
   );
 
   /* opera 11.10+ */
-  background: -o-radial-gradient(
-    circle at 3% 25%,
-    rgba(0, 40, 83, 1) 0%,
-    rgba(4, 12, 24, 1) 25%
-  );
+  background: -o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
 
   /* ie 10+ */
-  background: -ms-radial-gradient(
-    circle at 3% 25%,
-    rgba(0, 40, 83, 1) 0%,
-    rgba(4, 12, 24, 1) 25%
-  );
+  background: -ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
 
   /* global 92%+ browsers support */
-  background: radial-gradient(
-    circle at 3% 25%,
-    rgba(0, 40, 83, 1) 0%,
-    rgba(4, 12, 24, 1) 25%
-  );
+  background: radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 25%);
 }
 
 .gradient__text {
@@ -67,8 +51,7 @@ a {
 
 /* Scale up Animation */
 .scale-up-center {
-  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
-    both;
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
   animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
 }
 
@@ -109,7 +92,7 @@ a {
 
 @media screen and (max-width: 550px) {
   .section__padding {
-    padding: 4rem 2rem;
+    padding: 2rem 2rem;
   }
 
   .section__margin {

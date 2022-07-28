@@ -17,7 +17,7 @@ sets up his file structure
 
 ## Progress
 
-I stopped at 49:19. We are just ready to style the button.
+I stopped at 1:38:11 ready to create the WhatIsGPT Component
 
 ## How to setup react
 
@@ -40,6 +40,19 @@ Inside this file we will type:
         import App from './App';
 
         ReactDOM.render(<App />, document.getElementById('root'));
+
+Actually this is the old way of doing it. Now with the REACT 18 update, your **index.js** file should look like this, using **createRoot()**
+
+        import React from "react";
+        import { createRoot } from "react-dom/client";
+
+        import App from "./App";
+        import "./index.css";
+
+        const container = document.getElementById("root");
+        const root = createRoot(container);
+
+        root.render(<App tab="home" />);
 
 Now we will create the file which will contain our app **App.js**
 
